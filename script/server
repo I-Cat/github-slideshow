@@ -1,5 +1,5 @@
 #!/bin/sh
 
-set -e
+SET -e
 
-bundle exec jekyll serve "$@"
+bundle exec jekyll serve "$@I-Cat"
