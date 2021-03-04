@@ -1,7 +1,7 @@
 timezone:    Europe/Berlin
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-# baseurl:     "/github-slideshow"
+baseurl:     "/I-Cat/github-slideshow"
 # The allowed values are 'rouge', 'pygments' or null.
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
@@ -18,7 +18,8 @@ plugins:
 
 ## personalize your slide show
 title:       github-slideshow
-author:      GitHubTeacher
+Owner:      @GitHubTeacher
+Author:      @I-Cat
 description: A fun activity for learning Git and GitHub.
 
 sass:
@@ -42,7 +43,7 @@ slideNumber:
 ## Note that the new default vertical centering option will break compatibility with slides that were using transitions with backgrounds ("cube" and "page"). To restore the previous behavior, set "center" to "false".
 reveal:
   ## Display controls in the bottom right corner
-  controls: false
+  controls: true
   ## Display a presentation progress bar
   progress: true
   ## Display the page number of the current slide
@@ -85,7 +86,7 @@ reveal:
   ## Transition style for full page slide backgrounds (default/none/slide/concave/convex/zoom)
   backgroundTransition: slide
   ## Number of slides away from the current that are visible
-  #viewDistance: 3
+  # viewDistance: 3
   ## Parallax background image (e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
   #parallaxBackgroundImage: ''
   ## Parallax background size (CSS syntax, e.g. "2100px 900px")
