@@ -17,9 +17,9 @@ plugins:
   - jemoji
 
 ## personalize your slide show
-title:       github-slideshow
-Owner:      @GitHubTeacher
-Author:      @I-Cat
+Title:       github-slideshow
+Owner:       GitHubTeacher
+Author:      I-Cat
 description: A fun activity for learning Git and GitHub.
 
 sass:
